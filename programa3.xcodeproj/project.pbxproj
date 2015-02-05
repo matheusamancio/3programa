@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DDE75ECF1A83821500D91627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE75ECE1A83821500D91627 /* main.m */; };
+		DDE75ED71A83822B00D91627 /* INVOICE.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE75ED61A83822B00D91627 /* INVOICE.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DDE75ECB1A83821500D91627 /* programa3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = programa3; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE75ECE1A83821500D91627 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDE75ED51A83822B00D91627 /* INVOICE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INVOICE.h; sourceTree = "<group>"; };
+		DDE75ED61A83822B00D91627 /* INVOICE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INVOICE.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		DDE75EC21A83821500D91627 = {
 			isa = PBXGroup;
 			children = (
+				DDE75ED51A83822B00D91627 /* INVOICE.h */,
+				DDE75ED61A83822B00D91627 /* INVOICE.m */,
 				DDE75ECD1A83821500D91627 /* programa3 */,
 				DDE75ECC1A83821500D91627 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE75ECF1A83821500D91627 /* main.m in Sources */,
+				DDE75ED71A83822B00D91627 /* INVOICE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

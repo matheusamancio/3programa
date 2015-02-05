@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "INVOICE.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        INVOICE *i1 = [[INVOICE alloc]initWithFaturado:20 andDescricao:@"granada" andQuantidade: 30 andPreco: 30];
+        INVOICE *i2 = [[INVOICE alloc]initWithFaturado:10 andDescricao:@"bomba" andQuantidade: 40 andPreco: -9];
+        [i1 getInvoiceAmount];
+        [i2 getInvoiceAmount];
+        NSLog(@"i1 valor da fatura = %0.2f",[i1 getInvoiceAmount]);
+        NSLog(@"i2 valor da fatura = %0.2f",[i2 getInvoiceAmount]);
+
+        
     }
     return 0;
 }
